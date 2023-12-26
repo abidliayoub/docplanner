@@ -1,0 +1,76 @@
+.header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+ul li {
+    display: inline;
+}
+body{
+    height: 100vh;
+    
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: aquamarine;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+}
+.Box1{
+    height: 200px;
+    width: 300px;
+    background-color: aquamarine;
+border-radius:5%;
+}
+.Box2{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(21, 10, 239);
+    border-radius:5%;
+}
+
+
+
+.Box3{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(33, 28, 72);
+    border-radius:5%;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    justify-content: flex-start;
+    text-align: center;
+}
+.right{
+    justify-content: flex-end;
+    text-align: center;
+}
+.p{
+    color: aliceblue;
+}
+.h2{
+    color: rgb(255, 255, 255);
+}
+.centered{
+    text-align: center;
+}
